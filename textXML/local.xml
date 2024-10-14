@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InstilEduSuite" parallel="tests" thread-count="1">
+	<parameter name="groupReport" value="/instilEducation.html" />
+	<parameter name="toMails" value="victoriloh24@gmail.com" />
+	<parameter name="myBrowser" value="chrome" />
+	<parameter name="user" value="ValidLogin" />
+
+	<test name="AutocompleteTests" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="login.AutocompleteTests">
+				<methods>
+					<include name="testAutocomplete"/>
+				</methods>
+			</class>
+
+
+		</classes>
+	</test>
+	<test name="CheckboxTests" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="login.CheckboxTests">
+				<methods>
+					<include name="testCheckboxes"/>
+				</methods>
+			</class>
+
+
+		</classes>
+	</test>
+
+</suite>
