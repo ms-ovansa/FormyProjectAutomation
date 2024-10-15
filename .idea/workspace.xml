@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd977bae-2458-4480-aab4-9d6dc0f90bdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/data.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BaseTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/UtilityTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/login/AutocompleteTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/login/CheckboxTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutocompletePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CheckboxesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/ALphaPaySuite/LoginTests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textXML/local.xml" afterDir="false" />
+    <list default="true" id="cd977bae-2458-4480-aab4-9d6dc0f90bdb" name="Changes" comment="Added form autocomplete and checkboxes test cases">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/login/CompleteFormTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/login/FileUploadTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CompleteFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/UtilityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/UtilityTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/login/AutocompleteTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/login/AutocompleteTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/login/CheckboxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/login/CheckboxTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CheckboxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckboxesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textXML/local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/textXML/local.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +49,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG./Users/victoriloh/Documents/Automation/instillEdu/InstillEducation/textXML/local.xml.executor": "Run",
     "TestNG.AutocompleteTests.executor": "Run",
     "TestNG.AutocompleteTests.testAutocomplete.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/user/Downloads/Formy-Project",
+    "last_opened_file_path": "/Users/user/Downloads/Formy-Project/src/main/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -65,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -144,6 +144,15 @@
       <option name="presentableId" value="Default" />
       <updated>1710582599964</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added form autocomplete and checkboxes test cases">
+      <option name="closed" value="true" />
+      <created>1728932263047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728932263047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,20 +166,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/login/AutocompleteTests.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/login/AutocompleteTests.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added form autocomplete and checkboxes test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added form autocomplete and checkboxes test cases" />
   </component>
 </project>

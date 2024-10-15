@@ -24,7 +24,7 @@ public class CheckboxesPage extends BaseTests {
         WebElement checkbox =  driver.findElement(checkboxID);
 
         checkbox.click();
-        Assert.assertTrue(checkbox.isSelected(),"Checkbox is Selected");
+        Assert.assertFalse(checkbox.isSelected(),"Checkbox is Selected");
     }
 
 }

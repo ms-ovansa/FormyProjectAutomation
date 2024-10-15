@@ -9,17 +9,16 @@ import pages.AutocompletePage;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class AutocompleteTests extends BaseTests{
+public class AutocompleteTests extends BaseTests {
 
 
-        AutocompletePage autocompletePage = new AutocompletePage();
+    AutocompletePage autocompletePage = new AutocompletePage();
 
-        @Test
-        public void testAutocomplete() throws FileNotFoundException, IOException, ParseException {
-            UtilityTests.testTitle("Fill in user address details");
-            autocompletePage.ClickAutoCompleteBtn();
-            autocompletePage.FillAutocompleteForm();
-           // autocompletePage.getFormInfo();
+    @Test
+    public void testAutocomplete() throws FileNotFoundException, IOException, ParseException {
+        UtilityTests.testTitle("Fill in user address details");
+        autocompletePage.ClickAutoCompleteBtn();
+        autocompletePage.FillAutocompleteForm();
 
-        }
+    }
 }

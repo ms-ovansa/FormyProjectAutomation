@@ -30,5 +30,26 @@
 
 		</classes>
 	</test>
+	<test name="FileUploadTests" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="login.FileUploadTests">
+				<methods>
+					<include name="testFileUpload"/>
+				</methods>
+			</class>
 
+		</classes>
+	</test>
+	<test name="CompleteFormTests" preserve-order="true">
+		<parameter name="myBrowser" value="chrome" />
+		<classes>
+			<class name="login.CompleteFormTests">
+				<methods>
+					<include name="testCompleteForm"/>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
 </suite>
